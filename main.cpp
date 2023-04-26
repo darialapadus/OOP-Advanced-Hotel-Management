@@ -1,6 +1,6 @@
-#include <iostream>
+#include "meniu.h"
 
 int main() {
-    std::cout << "Hello, world!\n";
-    return 0;
+    Meniu ob;
+    ob.afis();
 }
